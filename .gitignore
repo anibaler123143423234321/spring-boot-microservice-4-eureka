@@ -1,0 +1,29 @@
+# Ignorar archivos y directorios generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y directorios de configuración del IDE
+/.idea/
+/.vscode/
+
+# Ignorar archivos de configuración de Eclipse
+.classpath
+.project
+.settings/
+
+# Ignorar archivos y directorios de NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# Ignorar archivos de compilación Java
+*.class
+
+# Ignorar archivos de registro y salida
+*.log
+*.out
+
+# Ignorar archivos generados por Spring Boot
+logs/
+restartedMain
